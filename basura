@@ -1,0 +1,29 @@
+1. Tanto el ejercicio propuesto para esta práctica como los que se propondrán en la sesión de evaluación
+   han de entregarse en la correspondiente tarea del aula virtual a través de un repositorio privado de
+   [GitHub](https://github.com/)
+1. Su proyecto ha de incluir un fichero `README.md` con indicaciones precisas para compilar (*build*) y desplegar su aplicación en una 
+   [página GitHub](https://pages.github.com/)
+   asociada con el repositorio del proyecto
+1. Su proyecto ha de incluir un fichero de configuración del flujo de desarrollo que permita automatizar mediante 
+   [GitHub Actions](https://github.com/features/actions)
+   la ejecución de las diferentes tareas del proyecto
+1. La aplicación debe adherirse al paradigma de programación orientada a objetos e implementarse de acuerdo con la arquitectura MVC, 
+   aplicando fundamentos, principios y buenas prácticas de OOP
+1. La estructura de clases de su aplicación se mostrará mediante un diagrama UML expuesto a través de una página GitHub del proyecto
+1. El comportamiento de su aplicación deberá ajustarse a lo descrito en este documento
+1. Los estilos de su aplicación han de implementarse utilizando el Framework
+   [Bulma](https://bulma.io/)
+1. Los métodos y clases de su aplicación estarán convenientemente documentados utilizando etiquetas
+   [JSDoc](https://jsdoc.app/)
+   y la documentación de la misma se generará utilizando
+   [TypeDoc](https://typedoc.org/)
+   y se alojará en una página GitHub de su proyecto
+1. La aplicación ha de contener tests unitarios realizados con 
+   [Jest](https://jestjs.io/)
+   para alguno(s) de los métodos que se desarrollen para su aplicación
+1. Mediante el uso de 
+   [typescript-eslint](https://typescript-eslint.io/)
+   se comprobará que el código de su aplicación se adhiere a las reglas de las Guías de Estilo de Google para 
+   [TypeScript](https://google.github.io/styleguide/tsguide.html)
+   y
+   [JavaScript](https://google.github.io/styleguide/jsguide.html)

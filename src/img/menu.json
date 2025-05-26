@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "Ensalada César",
+    "descripcion": "Lechuga fresca, pollo a la plancha, croutons y salsa César.",
+    "precio": 8.50,
+    "imagen": "img/ensalada-cesar.jpg"
+  },
+  {
+    "nombre": "Bowl Vegano",
+    "descripcion": "Quinoa, garbanzos, aguacate, tomate y aliño de limón.",
+    "precio": 9.00,
+    "imagen": "img/bowl-vegano.jpg"
+  },
+  {
+    "nombre": "Wrap de Pollo",
+    "descripcion": "Tortilla integral, pollo, verduras frescas y salsa yogur.",
+    "precio": 7.50,
+    "imagen": "img/wrap-pollo.jpg"
+  }
+]

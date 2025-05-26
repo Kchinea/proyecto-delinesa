@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/prueba.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.4.2/math.min.js"></script>
+    <script type="module" src="../dist/evaluation/main.js"></script>
+  </head>
+  <body>
+    <section class="hero is-primary is-bold">
+      <div class="hero-body has-text-centered">
+        <p class="title is-1">El Juego del Ahorcado</p>
+        <p class="subtitle is-3">MVC · TypeScript · Bulma</p>
+        <p class="has-text-light is-size-4 mt-4">Autor: <strong>Kyliam Chinea Salcedo</strong></p>
+      </div>
+    </section>
+
+    <nav class="navbar is-light is-spaced" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="../index.html">
+          <i class="fas fa-dice fa-lg"></i>&nbsp;<strong>P11</strong>
+        </a>
+      </div>
+      <div class="navbar-menu is-active">
+        <div class="navbar-end">
+          <a href="../uml.html" class="navbar-item">
+            <span class="icon"><i class="fas fa-project-diagram"></i></span>&nbsp;UML
+          </a>
+          <a href="../home-work/pract.html" class="navbar-item">
+            <span class="icon"><i class="fas fa-cogs"></i></span>&nbsp;La Práctica
+          </a>
+          <a href="./modi.html" class="navbar-item">
+            <span class="icon"><i class="fas fa-cogs"></i></span>&nbsp;Modificacion
+          </a>
+          <a href="../../docs/index.html" class="navbar-item">
+            <span class="icon"><i class="fas fa-book"></i></span>&nbsp;Documentación
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container has-text-centered mt-5">
+      <div class="columns">
+        <div class="column is-10">
+          <canvas id="graphCanvas" width="600" height="300"></canvas>
+          <div class="columns mt-4">
+            <div class="column">
+              <label for="functionInput" class="label">Función</label>
+              <input type="text" id="functionInput" class="input" placeholder="Ejemplo: x*x" />
+            </div>
+            <div class="column">
+              <label for="xMin" class="label">X Min</label>
+              <input type="number" id="xMin" class="input" placeholder="-10" />
+            </div>
+            <div class="column">
+              <label for="xMax" class="label">X Max</label>
+              <input type="number" id="xMax" class="input" placeholder="10" />
+            </div>
+            <div class="column">
+              <label for="yMax" class="label">Y Max</label>
+              <input type="number" id="yMax" class="input" placeholder="10" />
+            </div>
+          </div>
+        </div>
+        <div class="column is-2">
+            <button id="addPointsButton" class="button is-link">Add points one-by-one</button>
+            <label class="checkbox">
+              <input type="checkbox" id="animateCheckbox" />
+              Animate
+            </label>
+            <label for="speedSlider" class="label">Speed</label>
+            <input type="range" id="speedSlider" class="slider" min="1" max="100" value="50" />
+            <button id="resetButton" class="button is-danger">Reset</button>
+          </div>
+        </div>
+      </div>
+      <button id="runSimulation" class="button is-primary mt-4">Ejecutar Simulación</button>
+    </div>
+    
+  </body>
+</html>
