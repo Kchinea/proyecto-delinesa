@@ -8,15 +8,15 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-function cargarMenu() {
+function cargarMenuVegano() {
     return __awaiter(this, void 0, void 0, function* () {
         const res = yield fetch('img/menu.json');
         const platos = yield res.json();
         const menuList = document.getElementById('menu-list');
         if (!menuList)
             return;
-        // Solo platos NO veganos
-        const platosFiltrados = platos.filter((plato) => !plato.vegano);
+        // Solo platos veganos
+        const platosFiltrados = platos.filter((plato) => plato.vegano);
         menuList.innerHTML = platosFiltrados.map((plato) => `
     <div class="column is-12-mobile is-6-tablet is-4-desktop">
       <div class="card mb-4">
@@ -35,4 +35,4 @@ function cargarMenu() {
   `).join('');
     });
 }
-document.addEventListener('DOMContentLoaded', cargarMenu);
+document.addEventListener('DOMContentLoaded', cargarMenuVegano);

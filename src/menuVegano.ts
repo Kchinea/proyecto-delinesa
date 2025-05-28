@@ -1,12 +1,12 @@
-async function cargarMenu() {
+async function cargarMenuVegano() {
   const res = await fetch('img/menu.json');
   const platos = await res.json();
 
   const menuList = document.getElementById('menu-list');
   if (!menuList) return;
 
-  // Solo platos NO veganos
-  const platosFiltrados = platos.filter((plato: any) => !plato.vegano);
+  // Solo platos veganos
+  const platosFiltrados = platos.filter((plato: any) => plato.vegano);
 
   menuList.innerHTML = platosFiltrados.map((plato: any) => `
     <div class="column is-12-mobile is-6-tablet is-4-desktop">
@@ -26,4 +26,4 @@ async function cargarMenu() {
   `).join('');
 }
 
-document.addEventListener('DOMContentLoaded', cargarMenu);
+document.addEventListener('DOMContentLoaded', cargarMenuVegano);
