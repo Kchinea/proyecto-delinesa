@@ -5,7 +5,15 @@ async function cargarMenu() {
   const menuList = document.getElementById('menu-list');
   if (!menuList) return;
 
-  menuList.innerHTML = platos.map((plato: any) => `
+  // Detecta si estamos en menú vegano
+  const soloVegano = window.location.pathname.includes('menuVegano');
+
+  // Filtra según el tipo
+  const platosFiltrados = platos.filter((plato: any) =>
+    soloVegano ? plato.vegano : !plato.vegano
+  );
+
+  menuList.innerHTML = platosFiltrados.map((plato: any) => `
     <div class="column is-12-mobile is-6-tablet is-4-desktop">
       <div class="card mb-4">
         <div class="card-image">
