@@ -39,7 +39,7 @@
     "nombre": "Saquitos de Queso y Guayaba",
     "descripcion": "Lechuga fresca, pollo a la plancha, croutons y salsa César.",
     "precio": 8.50,
-    "imagen": "img/ensalada-cesar.jpg"
+    "imagen": "img/saquitos-guayaba.jpg"
   },
   {
     "nombre": "Milanesas de Soja",
@@ -60,9 +60,27 @@
     "imagen": "img/bowl-vegano.jpg"
   },
   {
+    "nombre": "Frutos del Bosque",
+    "descripcion": "Quinoa, garbanzos, aguacate, tomate y aliño de limón.",
+    "precio": 9.00,
+    "imagen": "img/frutos-bosque.jpg"
+  },
+  {
+    "nombre": "Maracuya",
+    "descripcion": "Quinoa, garbanzos, aguacate, tomate y aliño de limón.",
+    "precio": 9.00,
+    "imagen": "img/maracuya.jpg"
+  },
+  {
+    "nombre": "Polvito Uruguayo",
+    "descripcion": "Quinoa, garbanzos, aguacate, tomate y aliño de limón.",
+    "precio": 9.00,
+    "imagen": "img/polvito.jpg"
+  },
+  {
     "nombre": "Saquitos de Queso Ahumado y Mojo Rojo",
     "descripcion": "Tortilla integral, pollo, verduras frescas y salsa yogur.",
     "precio": 7.50,
-    "imagen": "img/wrap-pollo.jpg"
+    "imagen": "img/saquitos-mojo.jpg"
   }
 ]
