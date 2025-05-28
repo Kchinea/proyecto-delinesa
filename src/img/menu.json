@@ -1,18 +1,66 @@
 [
   {
-    "nombre": "Ensalada César",
+    "nombre": "Empanadilla Criolla",
+    "descripcion": "",
+    "precio": 8.50,
+    "imagen": "img/ensalada-cesar.jpg"
+  },
+  {
+    "nombre": "Hamburguesa Lenteja con Cúrcuma",
+    "descripcion": "",
+    "precio": 9.00,
+    "imagen": "img/bowl-vegano.jpg"
+  },
+  {
+    "nombre": "Hamburguesa Remolacha y Garbanzos",
+    "descripcion": ".",
+    "precio": 7.50,
+    "imagen": "img/wrap-pollo.jpg"
+  },
+  {
+    "nombre": "Hamburguesa Champiñon y Garbanzos",
+    "descripcion": "",
+    "precio": 8.00,
+    "imagen": "img/ensalada-atun.jpg"
+  },
+  {
+    "nombre": "Milanesa de Soja",
+    "descripcion": ".",
+    "precio": 7.00,
+    "imagen": "img/ensalada-mediterranea.jpg"
+  },
+  {
+    "nombre": "Falafel",
+    "descripcion": "",
+    "precio": 8.50,
+    "imagen": "img/ensalada-quinoa.jpg"
+  },
+  {
+    "nombre": "Saquitos de Queso y Guayaba",
     "descripcion": "Lechuga fresca, pollo a la plancha, croutons y salsa César.",
     "precio": 8.50,
     "imagen": "img/ensalada-cesar.jpg"
   },
   {
-    "nombre": "Bowl Vegano",
+    "nombre": "Milanesas de Soja",
     "descripcion": "Quinoa, garbanzos, aguacate, tomate y aliño de limón.",
     "precio": 9.00,
     "imagen": "img/bowl-vegano.jpg"
   },
   {
-    "nombre": "Wrap de Pollo",
+    "nombre": "Croquetas de Lenteja con Cúrcuma",
+    "descripcion": "Quinoa, garbanzos, aguacate, tomate y aliño de limón.",
+    "precio": 9.00,
+    "imagen": "img/bowl-vegano.jpg"
+  },
+  {
+    "nombre": "Delicias Canarias",
+    "descripcion": "Quinoa, garbanzos, aguacate, tomate y aliño de limón.",
+    "precio": 9.00,
+    "imagen": "img/bowl-vegano.jpg"
+  },
+  {
+    "nombre": "Saquitos de Queso Ahumado y Mojo Rojo",
     "descripcion": "Tortilla integral, pollo, verduras frescas y salsa yogur.",
     "precio": 7.50,
     "imagen": "img/wrap-pollo.jpg"
